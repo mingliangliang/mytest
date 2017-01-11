@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<config>
+    <!--测试列表-->
+    <info ip="127.0.0.1" port="9431">
+        <!--30009 红包总额-->
+        <subinfo enable="0" cmd="30009" user="166000000000656">
+        <json test="0" parajson="{}"/>
+        <json test="1" parajson="{&quot;status&quot;:&quot;666&quot;}"/>
+        <json test="1" parajson="{&quot;status&quot;:&quot;4&quot;}"/>
+        </subinfo>
+        <!--30010 红包明细-->
+        <subinfo enable="0" cmd="30010" user="166000000000656">
+        <json test="1" parajson="{}"/>
+        <json test="1" parajson="{&quot;status&quot;:&quot;0&quot;,&quot;type&quot;:&quot;0&quot;,&quot;start&quot;:&quot;5&quot;,&quot;count&quot;:&quot;5&quot;}"/>
+        <json test="0" parajson="{&quot;id&quot;:&quot;1764&quot;}"/>
+        </subinfo>
+        <!--30011 分享绑定-->
+        <subinfo enable="0" cmd="30011" user="">
+        <json test="0" parajson="{&quot;loginacc&quot;:&quot;166000000000656&quot;,&quot;loginacc_s&quot;:&quot;166000000000160&quot;,&quot;create_time&quot;:&quot;2016-11-02 12:00:00&quot;}"/>
+        </subinfo>
+        <!--30013 卡券返现-->
+        <subinfo enable="0" cmd="30013" user="">
+        <json test="1" parajson="{&quot;loginacc&quot;:&quot;166000000000160&quot;,&quot;closedate&quot;:1480056102,&quot;closedirector&quot;:1,&quot;closepositionid&quot;:300010512678,&quot;closeprice&quot;:3611,&quot;closequantity&quot;:500,&quot;closeweight&quot;:0.5,&quot;commission&quot;:1.44,&quot;commoditycode&quot;:&quot;GDAG&quot;,&quot;commodityid&quot;:100000000,&quot;commoditymode&quot;:1,&quot;commodityname&quot;:&quot;ิมน๓า๘&quot;,&quot;holdpositionid&quot;:200006954157,&quot;holdpositionpric&quot;:3595,&quot;opencommission&quot;:1.48,&quot;opendate&quot;:1476699029,&quot;opendirector&quot;:2,&quot;openprice&quot;:3720,&quot;profitorloss&quot;:-8,&quot;sign&quot;:&quot;b78e74a66479fe499dc9f6a99ed8c8f0&quot;,&quot;tradedate&quot;:1480003200,&quot;coupon_id&quot;:&quot;abcdefg&quot;,&quot;coupon_type&quot;:&quot;2&quot;,&quot;proportion&quot;:100}"/>
+        <json test="1" parajson="{&quot;loginacc&quot;:&quot;166000000000160&quot;,&quot;tradedate&quot;: 1480262400, &quot;holdpositionid&quot;: 200006954739, &quot;opendate&quot;: 1480077391, &quot;commodityid&quot;: 100000000, &quot;commoditycode&quot;: &quot;GDAG&quot;, &quot;commodityname&quot;: &quot;ิมน๓า๘&quot;, &quot;closequantity&quot;: 1500, &quot;opendirector&quot;: 2, &quot;openprice&quot;: 3627.000000, &quot;holdpositionpric&quot;: 3643.000000,&quot;closepositionid&quot;: 300010512682, &quot;closedate&quot;: 1480311723, &quot;closedirector&quot;: 1, &quot;closeprice&quot;: 3720.000000, &quot;commission&quot;: 4.460000, &quot;profitorloss&quot;: -115.500000, &quot;opencommission&quot;: 4.350000, &quot;closeweight&quot;: 1.500000, &quot;commoditymode&quot;: 1,&quot;sign&quot;: &quot;a9937e3ce0f41cf63e1f92556a34ad64&quot;,&quot;coupon_id&quot;:&quot;abcdefh&quot;,&quot;coupon_type&quot;:&quot;2&quot;,&quot;proportion&quot;:100}"/>
+        <json test="1" parajson="{&quot;loginacc&quot;:&quot;166000000000160&quot;,&quot;tradedate&quot;: 1480262400, &quot;holdpositionid&quot;: 200006954742, &quot;opendate&quot;: 1480304038, &quot;commodityid&quot;: 100000000, &quot;commoditycode&quot;: &quot;GDAG&quot;, &quot;commodityname&quot;: &quot;ิมน๓า๘&quot;, &quot;closequantity&quot;: 14800, &quot;opendirector&quot;: 1, &quot;openprice&quot;: 3700.000000, &quot;holdpositionpric&quot;: 3700.000000,&quot;closepositionid&quot;: 300010512683, &quot;closedate&quot;: 1480311725, &quot;closedirector&quot;: 2, &quot;closeprice&quot;: 3713.000000, &quot;commission&quot;: 43.960000, &quot;profitorloss&quot;: 192.400000, &quot;opencommission&quot;: 43.800000, &quot;closeweight&quot;: 14.800000, &quot;commoditymode&quot;: 1,&quot;sign&quot;: &quot;1ff2e8c9d36d2bd98a07ced33b097dbd&quot;,&quot;coupon_id&quot;:&quot;abcdefe&quot;,&quot;coupon_type&quot;:&quot;1&quot;,&quot;proportion&quot;:100}"/>
+        </subinfo>
+        <!--30014 卡券红包明细-->
+        <subinfo enable="1" cmd="30014" user="">
+        <json test="1" parajson="{&quot;loginacc&quot;:&quot;166000000000160&quot;,&quot;coupon_idlist&quot;:[{&quot;coupon_id&quot;:&quot;abcdefg&quot;},{&quot;coupon_id&quot;:&quot;abcdefh&quot;}]}"/>
+        </subinfo>
+    </info>
+</config>
