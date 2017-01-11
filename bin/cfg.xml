@@ -3,7 +3,7 @@
     <!--测试列表-->
     <info ip="127.0.0.1" port="9431">
         <!--30009 红包总额-->
-        <subinfo enable="1" cmd="30009" user="166000000000656">
+        <subinfo enable="0" cmd="30009" user="166000000000656">
         <json test="0" parajson="{}"/>
         <json test="1" parajson="{&quot;status&quot;:&quot;666&quot;}"/>
         <json test="1" parajson="{&quot;status&quot;:&quot;4&quot;}"/>
